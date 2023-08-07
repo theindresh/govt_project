@@ -1,0 +1,456 @@
+#fbody {
+  height: 4000px;
+  width: 1326px;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  background-color: #f8f8fb;
+}
+#fpart {
+  border: 2px solid orange;
+  width: 1325px;
+  height: 220px;
+  margin-top: -10px;
+  position: relative;
+  background-image: linear-gradient(105deg, white, orange);
+  border-left: 0.5px solid orange;
+  border-radius: 5px;
+  text-overflow: hidden;
+}
+
+#logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.plumber {
+  margin-top: 3px;
+  margin-left: 30px;
+}
+.log {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid orange;
+  border-radius: 80px;
+  cursor: pointer;
+}
+.b {
+  border-radius: 10px;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid white;
+  border-radius: 10px;
+  float: left;
+  width: 60%;
+  background-image: linear-gradient(247deg, orangered, orange);
+  color: white;
+  margin-left: 260px;
+  margin-top: 15px;
+  font-family: TimesNewRoman;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: orangered;
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+form.example button:hover {
+  background-image: linear-gradient(105deg, orangered, orange);
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#ad {
+  height: 130px;
+  width: 805px;
+  border: 1px solid white;
+  border-radius: 5px;
+  float: left;
+  margin-top: -165px;
+  margin-left: 510px;
+  transition: transform 0.2s;
+}
+#ad:hover {
+  transform: scale(1);
+}
+#nav {
+  height: 50px;
+  width: 1300px;
+  border-radius: 5px;
+  margin-left: -15px;
+  margin-right: 5px;
+  margin-top: -40px;
+}
+
+#nav ul {
+  list-style: none;
+}
+#nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+#nav ul li {
+  height: 30px;
+  width: 130px;
+  display: inline;
+  margin: 2px;
+  margin-top: -15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+}
+
+#nav ul li:hover {
+  background-image: linear-gradient(70deg, orangered, orange);
+  border: 1px solid orange;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.slide-container {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 350px;
+  width: 1310px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+}
+.image-container {
+  width: 6550px;
+  height: 350px;
+  position: relative;
+  transition: left 5s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  animation: sa 50s linear infinite;
+  animation-direction: alternate;
+  animation-delay: 5s;
+  animation-duration: 50s;
+  border-radius: 10px;
+}
+.image-container:hover {
+  animation-play-state: paused;
+}
+@keyframes sa {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(-1310px);
+  }
+  40% {
+    transform: translateX(-2620px);
+  }
+  60% {
+    transform: translateX(-3930px);
+  }
+  80% {
+    transform: translateX(-5240px);
+  }
+
+  100% {
+    transform: translateX(-0px);
+  }
+}
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+.slider-image:hover {
+  cursor: pointer;
+}
+.button-container {
+  top: -20px;
+  position: relative;
+}
+.slider-button {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: white;
+  animation: btn 50s linear infinite;
+}
+.slider-button:hover {
+  background-color: gray;
+}
+#si1:target ~ .image-container {
+  left: 0px;
+}
+#si2:target ~ .image-container {
+  left: -1310px;
+}
+#si3:target ~ .image-container {
+  left: -2620px;
+}
+#si4:target ~ .image-container {
+  left: -3920x;
+}
+#si5:target ~ .image-container {
+  left: -5240px;
+}
+#new {
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 0px solid orange;
+  height: 50px;
+  width: 1310px;
+}
+.nl1 {
+  color: orange;
+  display: inline;
+  text-overflow: hidden;
+  border-radius: 3px;
+  animation: link 5s linear infinite;
+  margin-top: -10px;
+}
+@keyframes link {
+  25% {
+    transform: translateZ(-3400px);
+  }
+}
+#body1 {
+  height: 620px;
+  width: 1310px;
+  margin-left: 5px;
+  margin-top: -40px;
+  border-radius: 5px;
+}
+#link1 {
+  height: 370px;
+  width: 370px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 55px;
+  margin-top: 25px;
+  transition: transform 0.2s;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 165, 0, 0.5)
+  );
+  box-shadow: 3px 3px 3px 3px gray;
+  border: none;
+}
+#link1:hover {
+  transform: scale(1.1);
+}
+#link2 {
+  height: 370px;
+  width: 370px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 465px;
+  float: up;
+  margin-top: -375px;
+  transition: transform 0.2s;
+  border: 1px solid white;
+  background-image: linear-gradient(85deg, orange, white);
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+#link2:hover {
+  transform: scale(1.1);
+}
+#link3 {
+  height: 370px;
+  width: 370px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 870px;
+  margin-top: -375px;
+  transition: transform 0.2s;
+  border: 1px solid white;
+  background-image: linear-gradient(85deg, orange, white);
+}
+#link3:hover {
+  transform: scale(1.1);
+}
+#content1 {
+  height: 1310px;
+  margin-left: 5px;
+  width: 1310px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#part1 {
+  height: 600px;
+  width: 400px;
+  border: 1px solid white;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(85deg, white, orange);
+  transition: transform 0.2s;
+}
+
+#part1 p {
+  text-align: left;
+  padding-left: 30px;
+  color: orange;
+}
+#part1 p:hover {
+  transform: scale(1.1);
+  color: orangered;
+  padding-left: 30px;
+}
+#part1:hover {
+  transform: scale(1.1);
+}
+#part2 {
+  height: 600px;
+  width: 400px;
+  border: 1px solid white;
+  margin-left: 451;
+  margin-top: -605;
+  border-radius: 5px;
+  background-image: linear-gradient(85deg, white, orange);
+  transition: transform 0.2s;
+}
+#part2:hover {
+  transform: scale(1.1);
+}
+#part3 {
+  height: 600px;
+  width: 400px;
+  border: 1px solid white;
+  margin-left: 896px;
+  margin-top: -603px;
+  border-radius: 5px;
+  background-image: linear-gradient(85deg, white, orange);
+  transition: transform 0.2s;
+}
+#part3:hover {
+  transform: scale(1.1);
+}
+#part4 {
+  height: 400;
+  width: 1290px;
+  border: 2px solid white;
+  margin-left: 5px;
+  margin-top: 30px;
+  border-radius: 5px;
+
+  transition: transform 0.2s;
+}
+#part4:hover {
+  transform: scale(1.1);
+}
+#footer {
+  height: 400px;
+  width: 1310px;
+  border: 2px solid white;
+  margin-left: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#footer1 {
+  height: 400px;
+  width: 1310px;
+  border: 2px solid white;
+  margin-left: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#profile {
+  height: 380px;
+  width: 280px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid white;
+
+  transition: transform 0.2s;
+  background-image: linear-gradient(95deg, orange, white);
+}
+#profile:hover {
+  transform: scale(1.1);
+}
+
+#profile1 {
+  height: 380px;
+  width: 280px;
+  margin-left: 295px;
+  margin-top: -385px;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: transform 0.2s;
+  background-image: linear-gradient(95deg, orange, white);
+}
+#profile1:hover {
+  transform: scale(1.1);
+}
+#profile2 {
+  height: 380px;
+  width: 280px;
+  margin-left: 585px;
+  margin-top: -385px;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: transform 0.2s;
+  background-image: linear-gradient(95deg, orange, white);
+}
+#profile2:hover {
+  transform: scale(1.1);
+}
+
+#profile3 {
+  height: 380px;
+  width: 280px;
+  margin-left: 875px;
+  margin-top: -385px;
+  border-radius: 5px;
+  border: 2px solid white;
+
+  transition: transform 0.2s;
+  background-image: linear-gradient(95deg, orange, white);
+}
+#profile3:hover {
+  transform: scale(1.1);
+}
+
+#myinfo {
+  height: 400px;
+  width: 1310px;
+  border: 2px solid white;
+  background-image: linear-gradient(85deg, orange, white);
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 50px;
+}
+.sm {
+  display: inline;
+  float: right;
+  border-radius: 80px;
+  transition: transform 0.2s;
+}
+.sm:hover {
+  background-image: linear-gradient(105deg, white, orange);
+  transform: scale(1.1);
+}
